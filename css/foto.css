@@ -1,0 +1,30 @@
+section#albom{
+    position: absolute;
+    top: 70%;
+    width: 95%;
+    height: 80%;
+    /* background: url('../img/foto/pergaminho-habacuque.jpg'); */
+    /* box-shadow: 2px 2px 10px greenyellow; */
+}
+img#rufo_frente{
+    position: absolute;
+    width: 500px;
+    top:35%;
+}
+img#rufo{
+    position: absolute;
+    width: 500px;
+    border-radius:50%; 
+    top:35%;
+    opacity: 0;
+    transition: all 2s;
+}
+img#rufo:hover{
+    widows: 500px;
+    border-radius: 0%;
+    opacity: 1;
+    transition: all 2s;
+}
+body#body-foto{
+    background: url('../img/foto/pergaminho-habacuque.jpg');
+}

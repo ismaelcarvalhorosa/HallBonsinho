@@ -1,0 +1,230 @@
+/* Todas as animações aqui */
+
+/* @keyframes animaRobo{
+    0%{ width: 50px;
+        left: 45%;
+        top: 150px; 
+        height: 50px;
+        background:rgb(92, 255, 92);
+    }
+    10%{width: 450px;
+        height: 450px;
+        background:rgb(92, 255, 92);
+        top: 50px;
+        left: 34%;
+    }
+    11%{ width: 50px;
+        left: 55%;
+        top: 80px; 
+        height: 50px;
+        background:rgb(92, 190, 255);
+    }
+    20%{width: 450px;
+        height: 450px;
+        background:rgb(92, 231, 255);
+        top: 50px;
+        left: 34%;
+    }
+    21%{ width: 50px;
+        left: 55%;
+        top: 200px; 
+        height: 50px;
+        background:rgb(243, 83, 83);
+    }
+    30%{width: 450px;
+        height: 450px;
+        background:rgb(243, 83, 83);
+        top: 50px;
+        left: 34%;
+    }
+    31%{ width: 50px;
+        left: 55%;
+        top: 400px; 
+        height: 50px;
+        background:rgb(241, 82, 246);
+    }
+    40%{width: 450px;
+        height: 450px;
+        background:rgb(241, 82, 246);
+        top: 50px;
+        left: 34%;
+    }
+    41%{ width: 50px;
+        left: 35%;
+        top: 400px; 
+        height: 50px;
+        background:rgb(0, 0, 0);
+    }
+    50%{width: 450px;
+        height: 450px;
+        background:rgb(0, 0, 0);
+        top: 50px;
+        left: 34%;
+    }
+    51%{ width: 50px;
+        left: 35%;
+        top: 150px; 
+        height: 40px;
+        background:rgb(255, 255, 255);
+    }
+    60%{width: 450px;
+        height: 450px;
+        background:rgb(255, 255, 255);
+        top: 50px;
+        left: 34%;
+    }
+    61%{ width: 50px;
+        left: 35%;
+        top: 200px; 
+        height: 50px;
+        background:rgb(228, 251, 122);
+    }
+    70%{width: 450px;
+        height: 450px;
+        background:rgb(228, 251, 122);
+        top: 50px;
+        left: 34%;
+    }
+    81%{ width: 50px;
+        left: 55%;
+        top: 200px; 
+        height: 50px;
+        background:rgb(226, 124, 251);
+    }
+    90%{width: 450px;
+        height: 450px;
+        background:rgb(226, 124, 251);
+        top: 50px;
+        left: 34%;
+    } 
+}*/
+.menu{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(86, 253, 100, 0.719); 
+    transition: all 1s;
+}
+.menu:hover{
+    width: 200px;
+    height: 200px;
+    border-radius:5%;
+    background: rgba(255, 255, 255, 0.082);
+}
+
+div#bola1{
+    width: 450px;
+    height: 450px;
+    background: rgba(47, 255, 57, 0);
+    position: absolute;
+    border-radius: 50%;
+    top: 51px;
+    left: 34%;
+    animation-name: animaRobo;
+    animation-duration: 50s;
+}
+div#robo{
+    position: relative;
+    top: 30px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    left: -2%;
+    width: 93,333333333%;
+    height:  150%;
+    text-align: center;
+    background: black;
+    box-shadow: 1px 1px 10px greenyellow;
+}
+img#imgRobo{
+    position: relative;
+    background: rgba(0, 0, 0, 0.466);
+    border-radius: 50%;
+    transition: all 1s;
+    left: 20%;
+}
+img#raio{
+    position: relative;
+    opacity: 0;
+    border-radius: 50%;
+    top: -80px;
+    left: -10%;
+    width: 300px;
+    height: 300px;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    box-shadow: 1px 1px 30px black;
+    transition: all 2s;
+}
+img#raio:hover{
+    background: rgba(0, 0, 0, 0.685);
+    opacity: 1;
+    border-radius: 50%;
+}
+img#raio3{
+    position: relative;
+    opacity: 0;
+    border-radius: 100%;
+    top: 50px;
+    left: -30%;
+    width: 300px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.534);
+    text-align: center;
+    box-shadow: 1px 1px 30px black;
+    transition: all 2s;
+}
+img#raio3:hover{
+    opacity: 1;
+    border-radius: 10%;
+}
+img#raio4{
+    position: relative;
+    opacity: 0;
+    border-radius: 100%;
+    top: -450px;
+    left: -0%;
+    width: 300px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.534);
+    box-shadow: 1px 1px 30px black;
+    text-align: center;
+    transition: all 2s;
+}
+img#raio4:hover{
+    opacity: 1;
+    border-radius: 10%;
+}
+img#raio5{
+    position: relative;
+    opacity: 0;
+    border-radius: 100%;
+    top: -400px;
+    left: 10%;
+    width: 300px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.534);
+    box-shadow: 1px 1px 30px black;
+    text-align: center;
+    transition: all 2s;
+}
+img#raio5:hover{
+    opacity: 1;
+    border-radius: 10%;
+}
+img#raio6{
+    position: relative;
+    opacity: 0;
+    border-radius: 100%;
+    top: -600px;
+    left: -25%;
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.534);
+    box-shadow: 1px 1px 30px black;
+    text-align: center;
+    transition: all 2s;
+}
+img#raio6:hover{
+    opacity: 1;
+    border-radius: 10%;
+}
