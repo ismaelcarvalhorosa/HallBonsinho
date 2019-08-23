@@ -13,6 +13,10 @@ section#sectionPrin{
     height: 53.333333333333336%;
     margin: 3.3333333333333335%;
 }
+section#velha{
+    background-color: white;
+    padding: 5%;
+}
 img#imageSection{
     position: relative;
     top: 6,666666667%;
