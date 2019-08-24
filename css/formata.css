@@ -58,3 +58,6 @@ img#recado{
     left: 35%;
     box-shadow: 2px 2px 10px greenyellow;
 }
+h4#jogoVelhaLabel{
+    text-align: center;
+}
